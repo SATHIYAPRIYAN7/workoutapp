@@ -1,10 +1,11 @@
 
 import React from "react";
-import Header from "./components/Header";
-import Body from "./components/Body";
-import Footer from "./components/Footer";
+import Navbar from "./components/Navbar";
 import "./App.css"
-
+import Banner from "./components/Banner";
+import Hotel from "./components/Hotel";
+import Feedback from "./components/Feedback";
+import Footer from "./components/Footer";
 
 
 
@@ -14,11 +15,13 @@ function App() {
  
   
   return (
-    <div style={{maxWidth:"1100px",margin:"auto"}} >
+    <div style={{maxWidth:"1600px",margin:"auto"}} >
 
-    <Header />
-    <Body />
-    <Footer />
+    <Navbar />
+    <Banner />
+     <Hotel />
+     <Feedback />
+     <Footer />
     </div>
   );
 }
