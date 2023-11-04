@@ -1,12 +1,9 @@
 
 import React from "react";
-import Navbar from "./components/Navbar";
-import "./App.css"
-import Banner from "./components/Banner";
-import Hotel from "./components/Hotel";
-import Feedback from "./components/Feedback";
-import Footer from "./components/Footer";
 
+import "./App.css"
+
+import PropCointainer from "./components/PropCointainer";
 
 
 function App() {
@@ -15,13 +12,9 @@ function App() {
  
   
   return (
-    <div style={{maxWidth:"1600px",margin:"auto"}} >
+    <div style={{maxWidth:"1000px",margin:"auto",minHeight:"100vh"}} >
 
-    <Navbar />
-    <Banner />
-     <Hotel />
-     <Feedback />
-     <Footer />
+     <PropCointainer />   
     </div>
   );
 }
